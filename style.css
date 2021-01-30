@@ -59,27 +59,28 @@ h4 {
 
 
 .headerDiv {
-    display: flex;
+    display: inline-flex;
     justify-content: flex-start;
     width: 30%;
     z-index: 1;
     height: 70px;
     align-items: center;
+    
    
 }
 .sabatonLogo {
     max-height: 60px;
 }
  
-/* nav {    
+nav {    
     display: flex;
    
-    width: 700%;
+    width: 70%;
     height: 70px;
     justify-content: flex-end;
     align-items: center;
  
-} */
+}
 .navBar {
     overflow: hidden;
 
@@ -204,6 +205,13 @@ footer {
 @media (max-width: 576px) {
     /* skriv din CSS för mobil här */
     nav a { display: none;
+    }
+    .headerDiv { 
+        width: 70%;
+    }
+    nav {
+        width: 30%;
+
     }
 
 }
