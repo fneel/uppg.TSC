@@ -83,7 +83,11 @@ h4 {
 } */
 .navBar {
     overflow: hidden;
-
+    display: flex; 
+    width: 70%;
+    height: 70px;
+    justify-content: flex-end;
+    align-items: center;
 }
 .navBar a {
     display: inline-flex;
