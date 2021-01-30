@@ -142,10 +142,9 @@ footer {
 .footerDiv {
     display: flex;
    margin-left: 30px;
-   
-  
-
-   
 
 }
 
+@media (max-width: 576px) {
+    /* skriv din CSS för mobil här */
+}
