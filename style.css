@@ -206,13 +206,13 @@ footer {
     /* skriv din CSS för mobil här */
     nav a { display: none;
     }
-    .headerDiv { 
+    /* .headerDiv { 
         width: 70%;
     }
     nav {
         width: 30%;
 
-    }
+    } */
 
 }
 @media (max-width: 700px) {
