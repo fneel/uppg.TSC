@@ -32,9 +32,13 @@ h2 {
     margin-right: 20px;
     margin-left: 20px;
     font-size: 24px;
+  
 }
 p, h3 {
     color: rgb(201, 201, 201);
+}
+h4 {
+    color:rgb(201, 201, 201)
 }
 
 .header {
@@ -54,7 +58,7 @@ p, h3 {
 .headerDiv {
     display: flex;
     justify-content: flex-start;
-    width: 40%;
+    width: 30%;
     z-index: 1;
     height: 70px;
     align-items: center;
@@ -67,7 +71,7 @@ p, h3 {
 nav {    
     display: flex;
    
-    width: 60%;
+    width: 700%;
     height: 70px;
     justify-content: flex-end;
     align-items: center;
@@ -112,7 +116,6 @@ nav a {
     width: 70%;
     font-family: "Roboto";
     justify-content: center;
-    text-align: center;
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 30px;
@@ -147,4 +150,7 @@ footer {
 
 @media (max-width: 576px) {
     /* skriv din CSS för mobil här */
+}
+@media (max-width: 700px) {
+
 }
