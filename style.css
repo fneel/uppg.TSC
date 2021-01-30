@@ -45,6 +45,11 @@ h4 {
     color:rgb(201, 201, 201)
 }
 
+hr {
+    color: rgb(201, 201, 201);
+    font-weight: bold;
+}
+
 .header {
     display: flex;
     align-items: center;
@@ -127,7 +132,7 @@ h4 {
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color:rgba(49, 49, 49, 0.63)
+    background-color:rgba(49, 49, 49, 0.63);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
