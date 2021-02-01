@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="sv">
 <head>
+    <meta charset='UTF-8'/>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'/>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
     <title>The Swedish Caroleans</title>
+    <script src="javascript.js"></script>
 
 </head>
 <body>
@@ -12,26 +15,46 @@
 
     <header>
        
-        <!-- <div class="logobox"> 
-            <img class="headerLogo" src="sabatonlogoclean.png" alt="Sabaton logo">
-        </div> -->
+     
         
 <div class="header">
     <div class="headerDiv">
         <img class="sabatonLogo" src="slogo.png" alt="sabatonLogo">
         <h2>The Swedish Caroleans</h2>
-       
-   </div>
-        <nav>
-            <a href="index.html">Hem</a>
+    </div>
+
+    <div class="navBar">
+        <div class="menuOne">
+            <a href="index.html"><u>Hem</u></a>
             <a href="omOss.html">Om oss</a>
             <a href="omsabaton.html">Om Sabaton</a>
             <a href="blimedlem.html">Bli medlem</a>
             <a href="butik.html">Butik</a>
-            <a href="kontakt.html"><u>kontakt</u></a>
-            
-        </nav>
+            <a href="kontakt.html"><u>Kontakt</u>></a>
         </div>
+            <div class="dropdown">
+                <button class="dropbtn" onclick="myFunction()"><hr size="4" width="30px" color="white">
+                    <br>
+                    <hr size="4" width="30px" color="white">
+                    <br>
+                    <hr size="4" width="30px" color="white">
+                    <br>
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content" id="myDropdown">
+                  <a href="index.html">Hem</a>
+                  <a href="omOss.html">Om oss</a>
+                  <a href="omsabaton.html">Om Sabaton</a>
+                  <a href="blimedlem.html">Bli medlem</a>
+                  <a href="butik.html">Butik</a>
+                  <a href="kontakt.html">Kontakt</a>
+                </div>
+            </div>  
+    </div>
+    <div class="mobileHeaderDiv">
+    <img class="mobileMenuLogo" src="slogo.png" alt="sabatonLogo">
+    </div>
+</div>
         <div class="topBg">
             <img class="sabaton-band" src="sgold.png" alt="sabaton-band">
         </div>
