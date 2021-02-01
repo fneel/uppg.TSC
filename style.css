@@ -150,12 +150,25 @@ hr {
     display: block;
   }
 
-  .mobileMenuLogo {
+  .mobileHeaderDiv {
+    display: inline-flex;
+    justify-content: flex-end;
+    width: 30%;
+    z-index: 1;
+    height: 70px;
+    align-items: center;
+    
+   
+}
+.mobileMenuLogo {
+    max-height: 60px;
+}
+  /* .mobileMenuLogo {
       width: 30%;
       max-height: 60px;
       align-items: center;
       justify-content: flex-end;
-  }
+  } */
 
 .topBg {
     display: flex;
@@ -244,6 +257,8 @@ footer {
 } */
 @media (min-width: 577px) {
     .dropdown { display: none;
+    }
+    .mobileHeaderDiv { display: none; 
     }
     .mobileMenuLogo { display: none;
     }
