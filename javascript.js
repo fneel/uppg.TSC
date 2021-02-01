@@ -1,13 +1,12 @@
 console.log("test")
 
 
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
+// menyknapp på/av
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
   }
   
-  // Close the dropdown if the user clicks outside of it
+  // menyknapp stäng om utanför
   window.onclick = function(e) {
     if (!e.target.matches('.dropbtn')) {
     var myDropdown = document.getElementById("myDropdown");
