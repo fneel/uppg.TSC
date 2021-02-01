@@ -38,6 +38,9 @@ h3 {
     text-align: center;
     color: rgb(201, 201, 201);
 }
+h5 {
+    color: rgb(201, 201, 201);
+}
 p {
     color: rgb(201, 201, 201);
 }
@@ -216,7 +219,7 @@ footer {
 
 @media (max-width: 576px) {
     /* skriv din CSS för mobil här */
-    p { font-size: 8px;
+    p { font-size: 12px;
         line-height: 2;
     }
     h2 {
