@@ -18,7 +18,7 @@ body {
 }
 /* text */
 h1 {
-    
+    font-size: 24px;
     color: rgb(201, 201, 201);
     text-align: center;
     padding: 5px;
@@ -235,6 +235,9 @@ footer {
     /* skriv din CSS för mobil här */
     p { font-size: 12px;
         line-height: 2;
+    }
+    h1 {
+        font-size: 30px;
     }
     h2 {
         display: none;
