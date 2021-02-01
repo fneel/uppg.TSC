@@ -84,7 +84,7 @@ hr {
     max-height: 60px;
 }
  
-
+/* nav för desktop */
 .navBar {
     overflow: hidden;
     display: flex;
@@ -168,7 +168,7 @@ hr {
     max-height: 60px;
 }
 
-
+/* nedre del av header */
 .topBg {
     display: flex;
     justify-content: center;
@@ -256,9 +256,7 @@ footer {
        margin: 5%;
    }
 }
-/* @media (max-width: 700px) {
 
-} */
 @media (min-width: 577px) {
     .dropdown { display: none;
     }
